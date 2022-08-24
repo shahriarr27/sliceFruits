@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Baumans&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ececec;
+  font-family: 'Barlow Condensed', sans-serif;
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none;
+  /* Standard syntax */
+}
+
+.container {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.whole-box {
+  padding: 30px;
+  width: 600px;
+  height: 480px;
+  background: #def8ff;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.212);
+          box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.212);
+  position: relative;
+}
+
+.whole-box .game-info-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.whole-box .game-info-box #lifes {
+  visibility: visible;
+}
+
+.whole-box .game-info-box #lifes #life img {
+  width: 20px;
+}
+
+.whole-box .game-info-box .score-box {
+  padding: 5px 15px;
+  background: #009bc2;
+  border-radius: 3px;
+  color: white;
+}
+
+.whole-box .game-box {
+  background: #bee2ff;
+  padding: 10px;
+  height: 300px;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0px 0px 10px 5px rgba(31, 31, 31, 0.212);
+          box-shadow: inset 0px 0px 10px 5px rgba(31, 31, 31, 0.212);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  color: #161616;
+  overflow: hidden;
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none;
+  /* Standard syntax */
+}
+
+.whole-box .game-box h3 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 75px;
+  text-align: center;
+}
+
+.whole-box .game-box img {
+  position: absolute;
+  top: -200px;
+  left: 400px;
+  width: 90px;
+  height: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.whole-box .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.whole-box .bottom .start-btn button {
+  padding: 7px 15px;
+  background: #00b900;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+  -webkit-box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.363);
+          box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.363);
+}
+
+.whole-box .bottom .start-btn button:active {
+  -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.363);
+          box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.363);
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+/*# sourceMappingURL=style.css.map */
